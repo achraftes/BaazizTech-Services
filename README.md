@@ -18,6 +18,7 @@ BaazizTech Services is a dynamic website designed to showcase the services of **
 🔹 **Laravel & Blade** – Backend development and dynamic view management.  
 🔹 **MySQL** – Data storage for company and user information.  
 🔹 **Bootstrap & CSS** – Modern, responsive user interface.  
+🔹 **JavaScript** – Adds interactivity and enhances user experience (used in forms, dynamic elements, etc.).  
 
 ---
 
