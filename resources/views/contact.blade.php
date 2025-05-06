@@ -188,15 +188,6 @@
                         </li>
                     </ul>
                 </div>
-                
-                <!-- Map Section (Optional) -->
-                <div class="contact-sidebar">
-                    <h3 class="section-title">Localisation</h3>
-                    <div class="ratio ratio-4x3">
-                        <!-- Replace with your actual Google Maps embed code -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13394.679786440362!2d-6.9245908302246105!3d33.920369899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76b871f0b06c1%3A0x1fd0b68c31639058!2sTamara!5e0!3m2!1sfr!2sma!4v1651234567890!5m2!1sfr!2sma" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
