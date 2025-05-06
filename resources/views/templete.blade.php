@@ -18,56 +18,163 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="{{ asset('images/Picture1.png') }}" type="image/icon type">
  <style>
+    /* Styles améliorés pour le header */
+    .navbar {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 12px 0;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar-brand img {
+        transition: all 0.3s ease;
+    }
+    
+    .navbar-brand:hover img {
+        transform: scale(1.05);
+    }
+    
     .font-size-large {
-    font-size: 20px; 
-}
-.navbar-nav .nav-link:hover {
-    color: DodgerBlue !important;
-}
-
+        font-size: 18px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+    
+    .navbar-nav .nav-link {
+        position: relative;
+        margin: 0 10px;
+        padding: 8px 5px;
+    }
+    
+    .navbar-nav .nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: DodgerBlue;
+        transition: width 0.3s ease;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        color: DodgerBlue !important;
+        transform: translateY(-2px);
+    }
+    
+    .navbar-nav .nav-link:hover::after {
+        width: 100%;
+    }
+    
+    .btn-primary {
+        background-color: DodgerBlue;
+        border-color: DodgerBlue;
+        border-radius: 30px;
+        padding: 8px 20px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0069d9;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(30, 144, 255, 0.3);
+    }
+    
+    .dropdown-menu {
+        border: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    
+    .dropdown-item {
+        padding: 10px 20px;
+        transition: all 0.2s ease;
+    }
+    
+    .dropdown-item:hover {
+        background-color: rgba(30, 144, 255, 0.1);
+        color: DodgerBlue;
+    }
+    
+    /* Ajout d'un effet de highlight pour la page active */
+    .navbar-nav .nav-item.active .nav-link {
+        color: DodgerBlue !important;
+        font-weight: 600;
+    }
+    
+    .navbar-nav .nav-item.active .nav-link::after {
+        width: 100%;
+    }
+    
+    /* Adaptation pour mobile */
+    @media (max-width: 992px) {
+        .navbar-nav .nav-link {
+            margin: 5px 0;
+            padding: 10px 15px;
+        }
+        
+        .ml-5 {
+            margin-left: 0 !important;
+        }
+    }
 </style>
 </head>
 <body> 
     
-<nav class="navbar navbar-expand-lg navbar-light bg-light bg-white fixed-top">
-    <div class="navbar-brand mr-5"> 
-        <a href="/">
-            <img src="{{ asset('images/Picture1.png') }}" alt="Logo" class="img-fluid" style="max-width: 160px;">
-        </a>
-    </div>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto"> 
-            <li class="nav-item ml-5">
-                <a class="nav-link text-dark font-size-large" href="{{ url('/') }}">Accueil</a> 
-            </li>
-            <li class="nav-item ml-5">
-                <a class="nav-link text-dark font-size-large" href="{{ url('post') }}">Nos-Service</a> 
-            </li>
-            <li class="nav-item ml-5">
-                <a class="nav-link text-dark font-size-large" href="{{ url('about') }}">À propos</a> 
-            </li>
-            <li class="nav-item ml-5">
-                <a class="nav-link text-dark font-size-large" href="{{ url('contact') }}">Contact</a> 
-        </ul>
-        <div class="ml-auto">
-            @if (Route::has('login'))  
-            <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
-                <div class="dropdown"> 
-                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Connexion
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="{{ route('login') }}">Se connecter</a>
-                        @if (Route::has('register'))
-                        <a class="dropdown-item" href="{{ route('register') }}">S'inscrire</a>
-                        @endif
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <div class="navbar-brand"> 
+            <a href="/">
+                <img src="{{ asset('images/Picture1.png') }}" alt="BAAZIZ TECHNOLOGIES" class="img-fluid" style="max-width: 160px;">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto"> 
+                <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
+                    <a class="nav-link text-dark font-size-large" href="{{ url('/') }}">
+                        <i class="bi bi-house-door mr-1"></i> Accueil
+                    </a> 
+                </li>
+                <li class="nav-item {{ Request::is('post') ? 'active' : '' }}">
+                    <a class="nav-link text-dark font-size-large" href="{{ url('post') }}">
+                        <i class="bi bi-gear mr-1"></i> Nos Services
+                    </a> 
+                </li>
+                <li class="nav-item {{ Request::is('about') ? 'active' : '' }}">
+                    <a class="nav-link text-dark font-size-large" href="{{ url('about') }}">
+                        <i class="bi bi-info-circle mr-1"></i> À propos
+                    </a> 
+                </li>
+                <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
+                    <a class="nav-link text-dark font-size-large" href="{{ url('contact') }}">
+                        <i class="bi bi-envelope mr-1"></i> Contact
+                    </a>
+                </li>
+            </ul>
+            <div class="ml-auto">
+                @if (Route::has('login'))  
+                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+                    <div class="dropdown"> 
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="bi bi-person-fill mr-1"></i> Connexion
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="{{ route('login') }}">
+                                <i class="bi bi-box-arrow-in-right mr-2"></i> Se connecter
+                            </a>
+                            @if (Route::has('register'))
+                            <a class="dropdown-item" href="{{ route('register') }}">
+                                <i class="bi bi-person-plus mr-2"></i> S'inscrire
+                            </a>
+                            @endif
+                        </div>
                     </div>
                 </div>
+                @endif
             </div>
-            @endif
         </div>
     </div>
 </nav>
@@ -189,4 +296,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </html>
-
