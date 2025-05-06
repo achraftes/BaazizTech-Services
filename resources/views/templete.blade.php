@@ -441,7 +441,7 @@
                 <p>L'année en cours a été marquée par la nomination de M. Abdellatif Baaziz à la direction de Baaziz Technologies. Sous sa direction, l'entreprise a initié une stratégie novatrice, recrutant des talents éminents et restructurant ses tarifs pour stimuler une croissance remarquable et maintenir un service de qualité supérieure.</p>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://x.com/chkr_achraf"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://www.instagram.com/achraf_chkr/"><i class="fab fa-instagram"></i></a>
                 </div>
