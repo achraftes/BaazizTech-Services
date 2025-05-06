@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BAAZIZ--TECHNOLOGIES</title>
    
-     <!-- darori -->
+    <!-- darori -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
- <!-- darori -->
-            <link rel="stylesheet" href="includes/bootstrap-5.3.0/css/bootstrap.min.css">
-            <link rel="stylesheet" href="includes/DataTables/dataTables.min.css">
-            <link rel="stylesheet" href="includes/bootstrap-datepicker-1.10.0/css/bootstrap-datepicker.min.css">
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- darori -->
+    <link rel="stylesheet" href="includes/bootstrap-5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="includes/DataTables/dataTables.min.css">
+    <link rel="stylesheet" href="includes/bootstrap-datepicker-1.10.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -105,6 +105,181 @@
     .navbar-nav .nav-item.active .nav-link::after {
         width: 100%;
     }
+
+    /* Amélioration du système de pagination */
+    .pagination-container {
+        padding: 30px 0;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        margin: 40px 0;
+    }
+    
+    .pagination .page-item .page-link {
+        color: #333;
+        border: none;
+        border-radius: 50%;
+        margin: 0 5px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+    
+    .pagination .page-item .page-link:hover {
+        background-color: DodgerBlue;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(30, 144, 255, 0.2);
+    }
+    
+    .pagination .page-item.active .page-link {
+        background-color: DodgerBlue;
+        color: white;
+    }
+    
+    /* Amélioration de la section carte */
+    .map_section {
+        position: relative;
+        padding: 0;
+        margin: 50px 0;
+    }
+    
+    .map_container {
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Amélioration du footer */
+    .footer-section {
+        background: linear-gradient(to right, #1e3c72, #2a5298);
+        color: #fff;
+        padding: 60px 0 30px;
+        position: relative;
+    }
+    
+    .footer-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: DodgerBlue;
+    }
+    
+    .footer-brand {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: DodgerBlue;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .footer-links h5 {
+        color: DodgerBlue;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    
+    .footer-links h5::after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        background-color: DodgerBlue;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-links ul li {
+        margin-bottom: 15px;
+    }
+    
+    .footer-links ul li a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        display: block;
+        position: relative;
+        padding-left: 15px;
+    }
+    
+    .footer-links ul li a:before {
+        content: '\f105';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        color: DodgerBlue;
+    }
+    
+    .footer-links ul li a:hover {
+        color: DodgerBlue;
+        transform: translateX(5px);
+    }
+    
+    .footer-contact {
+        margin-bottom: 20px;
+    }
+    
+    .footer-contact p {
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer-contact i {
+        color: DodgerBlue;
+        font-size: 18px;
+        margin-right: 15px;
+        width: 20px;
+    }
+    
+    .social-links {
+        margin-top: 30px;
+    }
+    
+    .social-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        margin-right: 10px;
+        transition: all 0.3s ease;
+    }
+    
+    .social-links a:hover {
+        background-color: DodgerBlue;
+        transform: translateY(-5px);
+    }
+    
+    .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+    
+    .footer-bottom p {
+        margin-bottom: 0;
+    }
     
     /* Adaptation pour mobile */
     @media (max-width: 992px) {
@@ -115,6 +290,23 @@
         
         .ml-5 {
             margin-left: 0 !important;
+        }
+        
+        .footer-section {
+            text-align: center;
+        }
+        
+        .footer-links h5::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .footer-links ul li a {
+            padding-left: 0;
+        }
+        
+        .footer-links ul li a:before {
+            display: none;
         }
     }
 </style>
@@ -179,120 +371,132 @@
     </div>
 </nav>
 
+<!-- Contenu principal -->
+@yield('main_content')
 
-
-    @yield('main_content')
-
-    <div class="container">
-    <div class="container d-flex justify-content-center align-items-center">
-        <ul class="pagination" style="margin-bottom: 0;" "padding:0;"> <!-- Modifier la valeur de margin-bottom à 0 -->
-            <li class="page-item"><a class="page-link" href="{{ url('/') }}">1</a></li>
-            <li class="page-item"><a class="page-link" href="{{ url('post') }}">2</a></li>
-            <li class="page-item"><a class="page-link" href="{{ url('about') }}">3</a></li>
-            <li class="page-item"><a class="page-link" href="{{ url('contact') }}">4</a></li>
-            <li class="page-item"><a class="page-link" href="{{ route('login') }}">5</a></li>
-            <li class="page-item"><a class="page-link" href="{{ route('register') }}">6</a></li>
-            
-        </ul>
-        
+<!-- Système de pagination amélioré -->
+<div class="container pagination-container">
+    <div class="row">
+        <div class="col-md-12">
+            <nav aria-label="Navigation des pages">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item {{ Request::is('/') ? 'active' : '' }}">
+                        <a class="page-link" href="{{ url('/') }}" aria-label="Accueil">
+                            <i class="bi bi-house-door"></i>
+                        </a>
+                    </li>
+                    <li class="page-item {{ Request::is('post') ? 'active' : '' }}">
+                        <a class="page-link" href="{{ url('post') }}" aria-label="Services">
+                            <i class="bi bi-gear"></i>
+                        </a>
+                    </li>
+                    <li class="page-item {{ Request::is('about') ? 'active' : '' }}">
+                        <a class="page-link" href="{{ url('about') }}" aria-label="À propos">
+                            <i class="bi bi-info-circle"></i>
+                        </a>
+                    </li>
+                    <li class="page-item {{ Request::is('contact') ? 'active' : '' }}">
+                        <a class="page-link" href="{{ url('contact') }}" aria-label="Contact">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="page-item {{ Request::is('login') ? 'active' : '' }}">
+                        <a class="page-link" href="{{ route('login') }}" aria-label="Connexion">
+                            <i class="bi bi-box-arrow-in-right"></i>
+                        </a>
+                    </li>
+                    <li class="page-item {{ Request::is('register') ? 'active' : '' }}">
+                        <a class="page-link" href="{{ route('register') }}" aria-label="Inscription">
+                            <i class="bi bi-person-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
-</div> <br> <br>
+</div>
+
+<!-- Section carte améliorée -->
 <section class="map_section">
-            <!-- map section -->
-            <div class="map_container">
-                <div class="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Lot,Foutouh,Av de Caire,Temara,Morocco" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:400px" allowfullscreen></iframe>
-                </div>
-            </div>
-            <!-- end map section -->
-        </section>
-<footer class="bg-dark text-white pt-5 pd-4">
-    <div class="container text-center text-md-left">
-        <div class="row text-center text-md-left">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold " style="color: DodgerBlue;">baaziz Technologies</h5>
-                <p>L'année en cours a été marquée par la nomination de M. Abdellatif Baaziz à la direction de Baaziz Technologies. Sous sa direction, l'entreprise a initié une stratégie novatrice, recrutant des talents éminents et restructurant ses tarifs pour stimuler une croissance remarquable et maintenir un service de qualité supérieure.</p>
-            </div>
-             <div class="col-md-2 col-lg col-xl-2 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold " style="color: DodgerBlue;"> Service</h5>
-                <p>
-                    <a href="#" class="text-white" style="text-decoration:none;">Etude de fibre</a>
-                </p>
-                <p>
-                    <a href="#" class="text-white" style="text-decoration:none;">installation</a>
-                </p>
-                <p>
-                    <a href="#" class="text-white" style="text-decoration:none;">Consulting</a>
-                </p>
-                <p>
-                    <a href="#" class="text-white" style="text-decoration:none;">intégration</a>
-                </p>
-             </div>
-             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold " style="color: DodgerBlue;">Liens utiles</h5>
-                <p>
-                    <a href="{{ url('post') }}" class="text-white" style="text-decoration:none;">Service</a>
-                </p>
-                <p>
-                    <a href="{{ url('aboute') }}" class="text-white" style="text-decoration:none;">À propos</a>
-                </p>
-                <p>
-                    <a href="{{ route('login') }}" class="text-white" style="text-decoration:none;">Connecter</a>
-                </p>
-                <p>
-                    <a  href="{{ url('contact') }}" class="text-white" style="text-decoration:none;">Contact</a>
-                </p>
-             </div>
-             <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold " style="color: DodgerBlue;">Contact</h5>
-                <p>
-                    <i class="fas fa-home mr-3"></i>Temara, Lot Foutouh
-                </p>
-                <p>
-                    <i class="fas fa-envelope mr-3"></i>BaazizTechno@gmail.com
-                </p>
-                <p>
-                    <i class="fas fa-phone mr-3"></i>+212 62 82 319 1
-                </p>
-                <p>
-                    <i class="fas fa-print mr-3"></i>+05 56 76 45 87
-                </p>
-             </div>
-        </div>
-        <hr class="mb-4">
-        <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8">
-                <p>&copy; 2024 Mon Site. Tous droits réservés by:
-                    <a href="#"style="text-decoration:none;">
-                    <strong class=""style="color: DodgerBlue;">Privacy Policy</strong>
-                </a></p>
-            </div>
-            <div class="col-md-5 col-lg-4">
-                <div class="text-center text-md-right">
-                    <ul class="list-unstyled list-inline">
-                        <li class="list-inline-item">
-                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-google-plus"></i></a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-linkedin-in"></i></a>
-                        </li>
-                    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="map_container">
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Lot,Foutouh,Av de Caire,Temara,Morocco" width="600" height="400" frameborder="0" style="border:0; width: 100%; height:400px" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
 
+<!-- Footer amélioré -->
+<footer class="footer-section">
+    <div class="container">
+        <div class="row">
+            <!-- Colonne À propos -->
+            <div class="col-md-5 col-lg-4 mb-4 mb-md-0">
+                <h5 class="footer-brand">Baaziz Technologies</h5>
+                <p>L'année en cours a été marquée par la nomination de M. Abdellatif Baaziz à la direction de Baaziz Technologies. Sous sa direction, l'entreprise a initié une stratégie novatrice, recrutant des talents éminents et restructurant ses tarifs pour stimuler une croissance remarquable et maintenir un service de qualité supérieure.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <!-- Colonne Services -->
+            <div class="col-md-3 col-lg-2 mb-4 mb-md-0 footer-links">
+                <h5>Nos Services</h5>
+                <ul>
+                    <li><a href="#">Étude de fibre</a></li>
+                    <li><a href="#">Installation réseau</a></li>
+                    <li><a href="#">Consulting IT</a></li>
+                    <li><a href="#">Intégration système</a></li>
+                </ul>
+            </div>
+            
+            <!-- Colonne Liens rapides -->
+            <div class="col-md-3 col-lg-2 mb-4 mb-md-0 footer-links">
+                <h5>Liens rapides</h5>
+                <ul>
+                    <li><a href="{{ url('/') }}">Accueil</a></li>
+                    <li><a href="{{ url('post') }}">Nos Services</a></li>
+                    <li><a href="{{ url('about') }}">À propos</a></li>
+                    <li><a href="{{ url('contact') }}">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Colonne Contact -->
+            <div class="col-md-4 col-lg-3 footer-contact">
+                <h5>Nous contacter</h5>
+                <p><i class="fas fa-map-marker-alt"></i> Temara, Lot Foutouh, Av de Caire</p>
+                <p><i class="fas fa-envelope"></i> BaazizTechno@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> +212 62 82 319 1</p>
+                <p><i class="fas fa-fax"></i> +05 56 76 45 87</p>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p>&copy; 2024 BAAZIZ TECHNOLOGIES. Tous droits réservés.</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <p><a href="#" style="color: DodgerBlue; text-decoration: none;">Politique de confidentialité</a> | <a href="#" style="color: DodgerBlue; text-decoration: none;">Conditions d'utilisation</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
-</body> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+</body>
 </html>
