@@ -483,7 +483,7 @@
         <div class="footer-bottom">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <p>&copy; 2024 BAAZIZ TECHNOLOGIES. Tous droits réservés.</p>
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> BAAZIZ TECHNOLOGIES. Tous droits réservés.</p>
                 </div>
                 <div class="col-md-6 text-md-right">
                     <p><a href="#" style="color: DodgerBlue; text-decoration: none;">Politique de confidentialité</a> | <a href="#" style="color: DodgerBlue; text-decoration: none;">Conditions d'utilisation</a></p>
