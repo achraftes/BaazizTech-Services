@@ -432,61 +432,137 @@
 </section>
 
 <!-- Footer amélioré -->
-<footer class="footer-section">
+<!-- Enhanced Footer Section -->
+<footer class="footer-section py-5">
     <div class="container">
-        <div class="row">
-            <!-- Colonne À propos -->
-            <div class="col-md-5 col-lg-4 mb-4 mb-md-0">
-                <h5 class="footer-brand">Baaziz Technologies</h5>
-                <p>L'année en cours a été marquée par la nomination de M. Abdellatif Baaziz à la direction de Baaziz Technologies. Sous sa direction, l'entreprise a initié une stratégie novatrice, recrutant des talents éminents et restructurant ses tarifs pour stimuler une croissance remarquable et maintenir un service de qualité supérieure.</p>
-                <div class="social-links">
-                    <a href="https://web.facebook.com/profile.php?id=61561337622222"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://x.com/chkr_achraf"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/achraf-chikrabane-850554291/"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.instagram.com/achraf_chkr/"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            
-            <!-- Colonne Services -->
-            <div class="col-md-3 col-lg-2 mb-4 mb-md-0 footer-links">
-                <h5>Nos Services</h5>
-                <ul>
-                    <li><a href="#">Étude de fibre</a></li>
-                    <li><a href="#">Installation réseau</a></li>
-                    <li><a href="#">Consulting IT</a></li>
-                    <li><a href="#">Intégration système</a></li>
-                </ul>
-            </div>
-            
-            <!-- Colonne Liens rapides -->
-            <div class="col-md-3 col-lg-2 mb-4 mb-md-0 footer-links">
-                <h5>Liens rapides</h5>
-                <ul>
-                    <li><a href="{{ url('/') }}">Accueil</a></li>
-                    <li><a href="{{ url('post') }}">Nos Services</a></li>
-                    <li><a href="{{ url('about') }}">À propos</a></li>
-                    <li><a href="{{ url('contact') }}">Contact</a></li>
-                </ul>
-            </div>
-            
-            <!-- Colonne Contact -->
-            <div class="col-md-4 col-lg-3 footer-contact">
-                <h5>Nous contacter</h5>
-                <p><i class="fas fa-map-marker-alt"></i> Temara, Lot Foutouh, Av de Caire</p>
-                <p><i class="fas fa-envelope"></i> BaazizTechno@gmail.com</p>
-                <p><i class="fas fa-phone-alt"></i> +212 62 82 319 1</p>
-                <p><i class="fas fa-fax"></i> +05 56 76 45 87</p>
-            </div>
+        <!-- Top Footer with Wave Effect -->
+        <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none" class="footer-wave-svg">
+                <path fill="#ffffff" fill-opacity="1" d="M0,32L80,42.7C160,53,320,75,480,74.7C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+            </svg>
         </div>
         
-        <!-- Footer Bottom -->
-        <div class="footer-bottom">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                <p>&copy; <script>document.write(new Date().getFullYear())</script> BAAZIZ TECHNOLOGIES. Tous droits réservés.</p>
+        <!-- Main Footer Content -->
+        <div class="row justify-content-between">
+            <!-- Company Info Column -->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="footer-logo mb-4">
+                    <img src="{{ asset('images/Picture1.png') }}" alt="BAAZIZ TECHNOLOGIES" class="img-fluid" style="max-width: 180px;">
                 </div>
-                <div class="col-md-6 text-md-right">
-                    <p><a href="#" style="color: DodgerBlue; text-decoration: none;">Politique de confidentialité</a> | <a href="#" style="color: DodgerBlue; text-decoration: none;">Conditions d'utilisation</a></p>
+                <p class="footer-description">Votre partenaire de confiance en solutions technologiques de pointe. Nous offrons une expertise inégalée en études et installations de fibre optique ainsi qu'en services de conseil informatique.</p>
+                <div class="footer-newsletter mt-4">
+                    <h5 class="newsletter-title">Restez informé</h5>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Votre email..." aria-label="Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Services Column -->
+            <div class="col-md-6 col-lg-2 mb-4 mb-md-0">
+                <h5 class="footer-heading">Nos Services</h5>
+                <ul class="footer-links list-unstyled">
+                    <li><a href="#" class="footer-link"><i class="fas fa-chevron-right"></i> Étude de fibre</a></li>
+                    <li><a href="#" class="footer-link"><i class="fas fa-chevron-right"></i> Installation réseau</a></li>
+                    <li><a href="#" class="footer-link"><i class="fas fa-chevron-right"></i> Consulting IT</a></li>
+                    <li><a href="#" class="footer-link"><i class="fas fa-chevron-right"></i> Intégration système</a></li>
+                    <li><a href="#" class="footer-link"><i class="fas fa-chevron-right"></i> Support technique</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links Column -->
+            <div class="col-md-6 col-lg-2 mb-4 mb-md-0">
+                <h5 class="footer-heading">Liens rapides</h5>
+                <ul class="footer-links list-unstyled">
+                    <li><a href="{{ url('/') }}" class="footer-link"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                    <li><a href="{{ url('post') }}" class="footer-link"><i class="fas fa-chevron-right"></i> Nos Services</a></li>
+                    <li><a href="{{ url('about') }}" class="footer-link"><i class="fas fa-chevron-right"></i> À propos</a></li>
+                    <li><a href="{{ url('contact') }}" class="footer-link"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    <li><a href="#" class="footer-link"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info Column -->
+            <div class="col-lg-3">
+                <h5 class="footer-heading">Contact</h5>
+                <div class="footer-contact-info">
+                    <div class="contact-item d-flex align-items-center mb-3">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            Lot Foutouh, Imm 177, App 3<br>Av De Caire, Temara
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex align-items-center mb-3">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <a href="mailto:BaazizTechno@gmail.com">BaazizTechno@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex align-items-center mb-3">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <a href="tel:+212628231901">+212 62 82 319 1</a>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex align-items-center">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            Lun - Sam: 9h00 - 18h00
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-media-icons mt-4">
+                    <h5 class="footer-heading">Suivez-nous</h5>
+                    <div class="social-icons d-flex">
+                        <a href="https://web.facebook.com/profile.php?id=61561337622222" class="social-icon facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/chkr_achraf" class="social-icon twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/achraf-chikrabane-850554291/" class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/achraf_chkr/" class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer Bottom -->
+    <div class="footer-bottom mt-5">
+        <div class="container">
+            <div class="footer-divider mb-4"></div>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="copyright-text">&copy; <script>document.write(new Date().getFullYear())</script> BAAZIZ TECHNOLOGIES. Tous droits réservés.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-links d-flex justify-content-md-end">
+                        <a href="#" class="px-3">Conditions d'utilisation</a>
+                        <a href="#" class="px-3">Politique de confidentialité</a>
+                        <a href="#" class="px-3">Cookies</a>
+                    </div>
                 </div>
             </div>
         </div>
