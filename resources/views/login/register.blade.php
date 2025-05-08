@@ -95,9 +95,9 @@
                 </div>
                 
                 <!-- Additional Info -->
-                <div class="text-center mt-4 text-muted">
+                <!-- <div class="text-center mt-4 text-muted">
                     <p>© 2025 BAAZIZ-TECHNOLOGIES. Tous droits réservés.</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
