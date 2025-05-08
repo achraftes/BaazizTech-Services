@@ -18,7 +18,7 @@
                 <!-- Logo Section -->
                 <div class="text-center mb-4">
                     <img src="/api/placeholder/100/100" alt="BAAZIZ-TECHNOLOGIES" class="img-fluid rounded-circle shadow-sm mb-3" style="max-width: 100px;">
-                    <h2 class="fw-bold text-primary">BAAZIZ-TECHNOLOGIES</h2>
+                    <!-- <h2 class="fw-bold text-primary">BAAZIZ-TECHNOLOGIES</h2> -->
                 </div>
                 
                 <!-- Login Card -->
