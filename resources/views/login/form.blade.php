@@ -83,9 +83,9 @@
                                 </div>
                                 
                                 <!-- Footer Info -->
-                                <div class="text-center mt-4 text-muted small">
+                                <!-- <div class="text-center mt-4 text-muted small">
                                     <p class="mb-0">© 2025 BAAZIZ-TECHNOLOGIES.</p>
-                                </div>
+                                </div> -->
                             </form>
                         </div>
                     </div>
