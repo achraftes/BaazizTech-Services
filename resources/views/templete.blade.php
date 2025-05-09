@@ -17,7 +17,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="{{ asset('images/Picture1.png') }}" type="image/icon type">
- <style>
+    <style>
     /* Styles améliorés pour le header */
     .navbar {
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -152,161 +152,194 @@
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     }
     
-    /* Amélioration du footer */
+    /* Styles du footer moderne */
     .footer-section {
-        background: linear-gradient(to right, #1e3c72, #2a5298);
-        color: #fff;
-        padding: 60px 0 30px;
         position: relative;
+        background: linear-gradient(135deg, #1a2a6c, #2a5298, #294f92);
+        color: rgba(255, 255, 255, 0.8);
+        padding: 0 0 30px;
+        overflow: hidden;
+        margin-top: 50px;
     }
     
-    .footer-section::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
+    .footer-wave {
         width: 100%;
-        height: 5px;
-        background: DodgerBlue;
-    }
-    
-    .footer-brand {
-        font-size: 1.8rem;
-        font-weight: 700;
+        line-height: 0;
         margin-bottom: 20px;
-        color: DodgerBlue;
-        text-transform: uppercase;
-        letter-spacing: 1px;
     }
     
-    .footer-links h5 {
-        color: DodgerBlue;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin-bottom: 25px;
+    .footer-logo {
+        transition: all 0.3s ease;
+        filter: brightness(0) invert(1);
+    }
+    
+    .footer-logo:hover {
+        transform: scale(1.05);
+    }
+    
+    .footer-heading {
         position: relative;
-        padding-bottom: 10px;
+        color: white;
+        font-weight: 600;
+        margin-bottom: 25px;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        padding-bottom: 12px;
     }
     
-    .footer-links h5::after {
+    .footer-heading:after {
         content: '';
         position: absolute;
-        width: 50px;
-        height: 3px;
-        background-color: DodgerBlue;
+        left: 0;
         bottom: 0;
-        left: 0;
+        height: 3px;
+        width: 50px;
+        background: DodgerBlue;
+        border-radius: 5px;
     }
     
-    .footer-links ul {
-        list-style: none;
-        padding: 0;
-    }
-    
-    .footer-links ul li {
-        margin-bottom: 15px;
-    }
-    
-    .footer-links ul li a {
-        color: #fff;
-        text-decoration: none;
-        transition: all 0.3s ease;
+    .footer-links a {
         display: block;
-        position: relative;
-        padding-left: 15px;
+        padding: 8px 0;
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        font-weight: 400;
+        transition: all 0.3s ease;
     }
     
-    .footer-links ul li a:before {
-        content: '\f105';
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 900;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
+    .footer-links a:hover {
+        color: DodgerBlue;
+        transform: translateX(8px);
+        padding-left: 5px;
+    }
+    
+    .footer-links a i {
+        margin-right: 8px;
+        font-size: 12px;
         color: DodgerBlue;
     }
     
-    .footer-links ul li a:hover {
-        color: DodgerBlue;
-        transform: translateX(5px);
+    .newsletter-box {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 20px;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
     }
     
-    .footer-contact {
-        margin-bottom: 20px;
+    .newsletter-box .form-control {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+        height: 45px;
+        border-radius: 30px 0 0 30px;
     }
     
-    .footer-contact p {
-        margin-bottom: 15px;
+    .newsletter-box .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .newsletter-box .btn {
+        height: 45px;
+        border-radius: 0 30px 30px 0;
+        background: DodgerBlue;
+        border-color: DodgerBlue;
+    }
+    
+    .newsletter-box .btn:hover {
+        background: #0069d9;
+    }
+    
+    .contact-icon {
+        width: 35px;
+        height: 35px;
         display: flex;
         align-items: center;
+        justify-content: center;
+        background: DodgerBlue;
+        color: white;
+        border-radius: 50%;
+        font-size: 14px;
     }
     
-    .footer-contact i {
-        color: DodgerBlue;
-        font-size: 18px;
-        margin-right: 15px;
-        width: 20px;
+    .contact-info p {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.9);
     }
     
     .social-links {
-        margin-top: 30px;
+        display: flex;
+        gap: 12px;
     }
     
-    .social-links a {
+    .social-icon {
         display: inline-flex;
         align-items: center;
         justify-content: center;
         width: 40px;
         height: 40px;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
         border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
-        color: #fff;
-        margin-right: 10px;
         transition: all 0.3s ease;
     }
     
-    .social-links a:hover {
-        background-color: DodgerBlue;
+    .social-icon:hover {
+        background: DodgerBlue;
+        color: white;
         transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     }
     
     .footer-bottom {
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        padding-top: 20px;
+        background: rgba(0, 0, 0, 0.2);
+        padding: 20px 0;
         margin-top: 30px;
     }
     
     .footer-bottom p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 14px;
         margin-bottom: 0;
     }
     
-    /* Adaptation pour mobile */
-    @media (max-width: 992px) {
-        .navbar-nav .nav-link {
-            margin: 5px 0;
-            padding: 10px 15px;
-        }
-        
-        .ml-5 {
-            margin-left: 0 !important;
-        }
-        
+    .footer-bottom-links a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+        margin: 0 15px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-bottom-links a:hover {
+        color: DodgerBlue;
+    }
+    
+    @media (max-width: 767px) {
         .footer-section {
             text-align: center;
         }
         
-        .footer-links h5::after {
+        .footer-heading:after {
             left: 50%;
             transform: translateX(-50%);
         }
         
-        .footer-links ul li a {
+        .contact-info .d-flex {
+            justify-content: center;
+        }
+        
+        .footer-links a:hover {
+            transform: none;
             padding-left: 0;
         }
         
-        .footer-links ul li a:before {
-            display: none;
+        .social-links {
+            justify-content: center;
+        }
+        
+        .footer-bottom-links {
+            margin-top: 15px;
         }
     }
 </style>
