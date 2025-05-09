@@ -1,5 +1,5 @@
-<!-- @extends('templete')
-@section('main_content') -->
+@extends('templete')
+@section('main_content')
 <!doctype html>
 <html lang="en">
 <head>
@@ -115,4 +115,4 @@
     </script>
 </body>
 </html>
-<!-- @endSection() -->
+@endSection()
