@@ -1,11 +1,10 @@
 @extends('templete')
-
 @section('main_content')
-<div class="container py-5">
+<div class="container py-5" style="margin-top: 76px;">
     <div class="row">
-        <div class="col-lg-8">
-            <div class="contact-form-container">
-                <h1 class="text-center section-title mb-4">Formulaire de contact</h1>
+        <div class="col-lg-8 mb-4">
+            <div class="bg-white rounded shadow p-4">
+                <h1 class="text-center text-primary border-bottom pb-3 mb-4">Formulaire de contact</h1>
 
                 @if(session('success'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -66,63 +65,47 @@
         </div>
 
         <div class="col-lg-4">
-            <div class="contact-sidebar">
-                <h3 class="section-title">Adresse</h3>
+            <div class="bg-white rounded shadow p-3 mb-4">
+                <h3 class="text-primary border-bottom pb-2 mb-3">Adresse</h3>
                 <ul class="list-unstyled">
-                    <li class="mb-3">
-                        <div class="d-flex">
-                            <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-                            <div>Lot Foutouh, Imm 177, App 3<br>Av De Caire, Temara</div>
-                        </div>
+                    <li class="mb-3 d-flex align-items-start">
+                        <i class="fas fa-map-marker-alt text-primary me-3 fs-5"></i>
+                        <span>Lot Foutouh, Imm 177, App 3<br>Av De Caire, Temara</span>
                     </li>
-                    <li class="mb-3">
-                        <div class="d-flex">
-                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-                            <a href="mailto:BaazizTechno@gmail.com" class="text-decoration-none">BaazizTechno@gmail.com</a>
-                        </div>
+                    <li class="mb-3 d-flex align-items-start">
+                        <i class="fas fa-envelope text-primary me-3 fs-5"></i>
+                        <a href="mailto:BaazizTechno@gmail.com" class="text-decoration-none">BaazizTechno@gmail.com</a>
                     </li>
-                    <li class="mb-3">
-                        <div class="d-flex">
-                            <span class="contact-icon"><i class="fas fa-phone-alt"></i></span>
-                            <a href="tel:+212628231901" class="text-decoration-none">+212 62 82 319 1</a>
-                        </div>
+                    <li class="mb-3 d-flex align-items-start">
+                        <i class="fas fa-phone-alt text-primary me-3 fs-5"></i>
+                        <a href="tel:+212628231901" class="text-decoration-none">+212 62 82 319 1</a>
                     </li>
                 </ul>
             </div>
 
-            <div class="contact-sidebar">
-                <h3 class="section-title">Heures d'ouverture</h3>
-                <ul class="list-unstyled">
-                    <li class="mb-2">
-                        <div class="d-flex">
-                            <span class="contact-icon"><i class="fas fa-clock"></i></span>
-                            <div><strong>Lundi - Samedi:</strong><br>9h00 - 18h00</div>
-                        </div>
-                    </li>
-                </ul>
+            <div class="bg-white rounded shadow p-3 mb-4">
+                <h3 class="text-primary border-bottom pb-2 mb-3">Heures d'ouverture</h3>
+                <div class="d-flex align-items-start mb-2">
+                    <i class="fas fa-clock text-primary me-3 fs-5"></i>
+                    <span><strong>Lundi - Samedi:</strong><br>9h00 - 18h00</span>
+                </div>
             </div>
 
-            <div class="contact-sidebar">
-                <h3 class="section-title">Pourquoi nous ?</h3>
-                <p>Notre entreprise se positionne comme un guichet unique pour répondre à tous vos besoins. Nous vous offrons une expertise complète en études et installations de fibre optique, ainsi qu'en services de conseil.</p>
+            <div class="bg-white rounded shadow p-3">
+                <h3 class="text-primary border-bottom pb-2 mb-3">Pourquoi nous ?</h3>
+                <p>Notre entreprise se positionne comme un guichet unique pour répondre à tous vos besoins.</p>
                 <ul class="list-unstyled">
-                    <li class="feature-item">
-                        <div class="d-flex">
-                            <span class="contact-icon"><i class="fas fa-check-circle"></i></span>
-                            <div>Assistance 24 heures sur 24, 7 jours sur 7</div>
-                        </div>
+                    <li class="d-flex align-items-start mb-2">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        <span>Assistance 24h/24 et 7j/7</span>
                     </li>
-                    <li class="feature-item">
-                        <div class="d-flex">
-                            <span class="contact-icon"><i class="fas fa-check-circle"></i></span>
-                            <div>Des ingénieurs éminents et expérimentés</div>
-                        </div>
+                    <li class="d-flex align-items-start mb-2">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        <span>Ingénieurs expérimentés</span>
                     </li>
-                    <li class="feature-item">
-                        <div class="d-flex">
-                            <span class="contact-icon"><i class="fas fa-check-circle"></i></span>
-                            <div>Solution à tous vos problèmes techniques</div>
-                        </div>
+                    <li class="d-flex align-items-start mb-2">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        <span>Solutions à tous vos problèmes techniques</span>
                     </li>
                 </ul>
             </div>
@@ -130,69 +113,23 @@
     </div>
 </div>
 
-{{-- Validation Bootstrap --}}
+<!-- Scripts Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Validation JS -->
 <script>
-    (function() {
+    (function () {
         'use strict'
         var forms = document.querySelectorAll('.needs-validation')
-        Array.prototype.slice.call(forms)
-            .forEach(function(form) {
-                form.addEventListener('submit', function(event) {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
-                    form.classList.add('was-validated')
-                }, false)
-            })
+        Array.prototype.slice.call(forms).forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
     })()
 </script>
-
-{{-- Style spécifique à la page --}}
-<style>
-    body {
-        background-color: #f8f9fa;
-    }
-    .contact-form-container {
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        padding: 30px;
-        margin-bottom: 30px;
-    }
-    .contact-sidebar {
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        margin-bottom: 20px;
-    }
-    .section-title {
-        color: #1E90FF;
-        border-bottom: 2px solid #1E90FF;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-    }
-    .form-control:focus {
-        border-color: #1E90FF;
-        box-shadow: 0 0 0 0.2rem rgba(30, 144, 255, 0.25);
-    }
-    .btn-primary {
-        background-color: #1E90FF;
-        border-color: #1E90FF;
-    }
-    .btn-primary:hover {
-        background-color: #0078FF;
-        border-color: #0078FF;
-    }
-    .contact-icon {
-        width: 30px;
-        text-align: center;
-        margin-right: 10px;
-        color: #1E90FF;
-    }
-    .feature-item {
-        margin-bottom: 10px;
-    }
-</style>
 @endsection
