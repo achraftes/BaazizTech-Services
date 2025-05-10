@@ -8,7 +8,7 @@
 
 <style>
     .detail-section {
-        padding: 80px 0;
+        padding: 150px 0;
         background-color: #f8f9fa;
         min-height: 100vh;
     }
