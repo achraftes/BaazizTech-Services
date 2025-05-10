@@ -398,7 +398,7 @@
                             <a href="{{ url('/post') }}" class="btn btn-primary btn-action">
                                 <i class="fas fa-list me-2"></i> Tous les services
                             </a>
-                            <a href="#" class="btn btn-outline-primary btn-action ms-2">
+                            <a href="{{ url('contact') }}" class="btn btn-outline-primary btn-action ms-2">
                                 <i class="fas fa-envelope me-2"></i> Contacter
                             </a>
                         </div>
