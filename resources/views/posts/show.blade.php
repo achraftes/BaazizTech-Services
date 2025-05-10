@@ -410,7 +410,7 @@
                             <a href="https://x.com/chkr_achraf" class="social-icon twitter" title="Partager sur Twitter">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="#" class="social-icon linkedin" title="Partager sur LinkedIn">
+                            <a href="https://www.linkedin.com/in/achraf-chikrabane-850554291/" class="social-icon linkedin" title="Partager sur LinkedIn">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                             <a href="#" class="social-icon whatsapp" title="Partager sur WhatsApp">
