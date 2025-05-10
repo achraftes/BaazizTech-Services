@@ -40,6 +40,7 @@
             padding: 12px 16px;
             border-radius: 50%;
             box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            display: none; /* Hidden initially */
         }
 
         #scrollBtn:hover {
@@ -116,6 +117,16 @@
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+// Show the button when the user scrolls down 100px
+window.onscroll = function () {
+    const scrollBtn = document.getElementById("scrollBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        scrollBtn.style.display = "block";
+    } else {
+        scrollBtn.style.display = "none";
+    }
+};
 </script>
 
 </body>
