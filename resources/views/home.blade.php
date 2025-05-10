@@ -263,7 +263,7 @@
                 <h3 class="fs-3 text-uppercase mb-3" style="color: var(--accent-color);">EXPERTISE</h3>
                 <h1 class="display-1 text-white mb-4">RÉSEAUX & FIBRE OPTIQUE</h1>
                 <p class="carousel-tagline">Expertise technique de pointe pour vos projets d'infrastructure réseau</p>
-                <a href="#contact" class="btn btn-custom">Contactez-nous</a>
+                <a href="{{ url('contact') }}" class="btn btn-custom">Contactez-nous</a>
             </div>
         </div>
         <div class="carousel-item c-item">
