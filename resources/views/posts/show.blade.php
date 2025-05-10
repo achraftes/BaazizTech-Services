@@ -407,7 +407,7 @@
                             <a href="https://web.facebook.com/profile.php?id=61561337622222" class="social-icon facebook" title="Partager sur Facebook">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#" class="social-icon twitter" title="Partager sur Twitter">
+                            <a href="https://x.com/chkr_achraf" class="social-icon twitter" title="Partager sur Twitter">
                                 <i class="fab fa-twitter"></i>
                             </a>
                             <a href="#" class="social-icon linkedin" title="Partager sur LinkedIn">
