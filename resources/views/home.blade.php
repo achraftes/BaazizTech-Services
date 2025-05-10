@@ -299,7 +299,7 @@
         </div>
         <div class="col-lg-6">
             <div class="welcome-image">
-                <img src="images/consi.jpg" alt="Baaziz Technologies" class="img-fluid">
+                <img src="images/sp.jpg" alt="Baaziz Technologies" class="img-fluid">
             </div>
         </div>
     </div>
