@@ -121,7 +121,7 @@
 
 <div class="detail-section">
     <!-- Bouton retour à la page des services -->
-    <a href="{{ url('/services') }}" class="back-button" title="Retour aux services">
+    <a href="{{ url('/post') }}" class="back-button" title="Retour aux services">
         <i class="fas fa-arrow-left"></i>
     </a>
     
@@ -138,7 +138,7 @@
                         <div class="detail-content">{{ $posts->detail }}</div>
                     </div>
                     <div class="card-footer bg-white p-4 text-center">
-                        <a href="{{ url('/services') }}" class="btn btn-primary">
+                        <a href="{{ url('/post') }}" class="btn btn-primary">
                             <i class="fas fa-list me-2"></i> Voir tous les services
                         </a>
                     </div>
