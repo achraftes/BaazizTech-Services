@@ -538,7 +538,7 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="ms-3">
-                            <p class="mb-0">BaazizTechno@gmail.com</p>
+                            <p class="mb-0">achraf@gmail.com</p>
                         </div>
                     </div>
                     <div class="d-flex mb-3">
