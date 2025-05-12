@@ -12,7 +12,7 @@
                 <p class="lead">Experts en fibre optique et solutions de télécommunications depuis 2014.</p>
                 <div class="d-flex mt-4">
                     <div class="me-4">
-                        <h4 class="text-primary fw-bold">500+</h4>
+                        <h4 class="text-primary fw-bold">600+</h4>
                         <p>Projets réalisés</p>
                     </div>
                     <div class="me-4">
