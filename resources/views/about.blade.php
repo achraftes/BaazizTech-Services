@@ -9,7 +9,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h1 class="display-4 fw-bold text-primary mb-3">QUI SOMMES-NOUS</h1>
-                <p class="lead">Experts en fibre optique et solutions de télécommunications depuis 2015.</p>
+                <p class="lead">Experts en fibre optique et solutions de télécommunications depuis 2014.</p>
                 <div class="d-flex mt-4">
                     <div class="me-4">
                         <h4 class="text-primary fw-bold">500+</h4>
