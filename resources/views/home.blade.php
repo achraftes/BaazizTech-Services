@@ -292,7 +292,7 @@
     <div class="row align-items-center">
         <div class="col-lg-6 welcome-text">
             <h2 class="section-title">BIENVENUE À <span style="color: var(--secondary-color);"> BAAZIZ TECHNOLOGIES </span></h2>
-            <p class="lead mb-4">Votre partenaire de confiance en solutions de réseaux et télécommunications depuis 2020.</p>
+            <p class="lead mb-4">Votre partenaire de confiance en solutions de réseaux et télécommunications depuis 2019.</p>
             <p class="mb-3">Établie en 2020, Baaziz Technologies est une entreprise de pointe spécialisée dans les réseaux informatiques et les télécommunications. Notre expertise se concentre sur la conception, l'installation et la maintenance de réseaux de fibre optique pour les entreprises et institutions.</p>
             <p class="mb-4">Chez Baaziz Technologies, nous croyons fermement à la recherche constante de l'excellence et à l'innovation technologique pour vous offrir des solutions adaptées à vos besoins spécifiques.</p> 
             <a href="{{ url('about') }}" class="btn btn-custom">En savoir plus</a>
