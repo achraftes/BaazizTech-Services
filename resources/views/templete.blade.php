@@ -361,7 +361,7 @@
             <ul class="navbar-nav mx-auto"> 
                 <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
                     <a class="nav-link text-dark font-size-large" href="{{ url('/') }}">
-                        <i class="bi bi-house-door mr-1"></i> Accueill
+                        <i class="bi bi-house-door mr-1"></i> Accueil
                     </a> 
                 </li>
                 <li class="nav-item {{ Request::is('post') ? 'active' : '' }}">
