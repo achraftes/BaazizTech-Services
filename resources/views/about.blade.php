@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="{{asset('images/about.jpg')}}" alt="Image à propos" class="img-fluid rounded shadow">
+                <img src="{{asset('images/consi.jpg')}}" alt="Image à propos" class="img-fluid rounded shadow">
             </div>
         </div>
     </div>
