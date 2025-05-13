@@ -365,7 +365,7 @@
             <div class="col-md-3 col-6 mb-4">
                 <div class="p-3 border rounded shadow-sm h-100">
                     <i class="fas fa-award fa-3x text-primary mb-3"></i>
-                    <h5>BICS</h5>
+                    <h5>BICSIs</h5>
                     <p class="small text-muted mb-0">Techniques d'infrastructure</p>
                 </div>
             </div>
