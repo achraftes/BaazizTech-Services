@@ -384,6 +384,11 @@
                         <i class="bi bi-envelope mr-1"></i> Blogs
                     </a>
                 </li>
+                <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
+                    <a class="nav-link text-dark font-size-large" href="{{ url('contact') }}">
+                        <i class="bi bi-envelope mr-1"></i> Blogs
+                    </a>
+                </li>
             </ul>
             <div class="ml-auto">
                 @if (Route::has('login'))  
