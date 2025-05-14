@@ -242,7 +242,7 @@
     
     .newsletter-box .btn {
         height: 45px;
-        border-radius: 0 30px 30px 0;
+        border-radius: 0 30px 30px 1;
         background: DodgerBlue;
         border-color: DodgerBlue;
     }
