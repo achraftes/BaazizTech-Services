@@ -376,7 +376,7 @@
                 </li>
                 <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
                     <a class="nav-link text-dark font-size-large" href="{{ url('contact') }}">
-                        <i class="bi bi-envelope mr-1"></i> Contact
+                        <i class="bi bi-envelope mr-1"></i> Contacts
                     </a>
                 </li>
             </ul>
