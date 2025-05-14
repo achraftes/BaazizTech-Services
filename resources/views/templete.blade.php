@@ -371,7 +371,7 @@
                 </li>
                 <li class="nav-item {{ Request::is('about') ? 'active' : '' }}">
                     <a class="nav-link text-dark font-size-large" href="{{ url('about') }}">
-                        <i class="bi bi-info-circle mr-1"></i> À propos
+                        <i class="bi bi-info-circle mr-1"></i>  propos
                     </a> 
                 </li>
                 <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
