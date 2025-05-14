@@ -282,7 +282,7 @@
                                 <span class="fw-bold">LB</span>
                             </div>
                             <div class="ms-3">
-                                <h5 class="mb-0">Leila Bennani</h5>
+                                <h5 class="mb-0">Hiba Bennani</h5>
                                 <p class="text-muted mb-0">CEO, DataConnect Maroc</p>
                             </div>
                         </div>
