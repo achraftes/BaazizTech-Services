@@ -204,7 +204,7 @@
                         </div>
                     </div>
                     <div class="card-body pt-5 mt-4">
-                        <h4 class="card-title">Mme. Sara Tazi</h4>
+                        <h4 class="card-title">Mme. menana Tazi</h4>
                         <p class="text-muted">Directrice Technique</p>
                         <p class="card-text">Avec plus de 15 ans d'expérience, elle supervise tous les aspects techniques de nos projets d'installation.</p>
                     </div>
