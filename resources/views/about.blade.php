@@ -305,7 +305,7 @@
                                 <span class="fw-bold">OE</span>
                             </div>
                             <div class="ms-3">
-                                <h5 class="mb-0">Hamza El Fassi</h5>
+                                <h5 class="mb-0">Omar El Fassi</h5>
                                 <p class="text-muted mb-0">Directeur Technique, FiberNet</p>
                             </div>
                         </div>
