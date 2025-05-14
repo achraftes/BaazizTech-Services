@@ -153,7 +153,7 @@
                     </div>
                     
                     <p class="fw-bold mb-2">Support technique</p>
-                    <div class="progress mb-4" style="height: 10px;">
+                    <div class="progress mb-4" style="height: 11px;">
                         <div class="progress-bar bg-primary" role="progressbar" style="width: 88%;" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">88%</div>
                     </div>
                 </div>
