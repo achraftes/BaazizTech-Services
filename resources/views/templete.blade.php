@@ -366,7 +366,7 @@
                 </li>
                 <li class="nav-item {{ Request::is('post') ? 'active' : '' }}">
                     <a class="nav-link text-dark font-size-large" href="{{ url('post') }}">
-                        <i class="bi bi-gear mr-1"></i> No Services
+                        <i class="bi bi-gear mr-1"></i> Nos Services
                     </a> 
                 </li>
                 <li class="nav-item {{ Request::is('about') ? 'active' : '' }}">
