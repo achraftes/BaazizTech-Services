@@ -66,7 +66,7 @@
                             <i class="fas fa-search fa-3x text-primary"></i>
                         </div>
                         <h4 class="card-title">Étude Approfondie</h4>
-                        <p class="card-text"> analysant minutieusement les besoins spécifiques de chaque projet, nous prenons en compte les exigences de bande passante, les contraintes géographiques et les normes de l'industrie.</p>
+                        <p class="card-text">En analysant minutieusement les besoins spécifiques de chaque projet, nous prenons en compte les exigences de bande passante, les contraintes géographiques et les normes de l'industrie.</p>
                     </div>
                 </div>
             </div>
