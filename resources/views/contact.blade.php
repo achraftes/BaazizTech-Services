@@ -2,7 +2,7 @@
 @section('main_content')
 <div class="container py-5" style="margin-top: 76px;">
     <div class="row">
-        <div class="col-lg-8 mb-4">
+        <div class="col-lg-7 mb-4">
             <div class="bg-white rounded shadow p-4">
                 <h1 class="text-center text-primary border-bottom pb-3 mb-4">Formulaire de contact</h1>
 
