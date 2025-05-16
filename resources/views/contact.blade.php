@@ -1,6 +1,6 @@
 @extends('templete')
 @section('main_content')
-<div class="container py-5" style="margin-top: 86px;">
+<div class="container py-5" style="margin-top: 76px;">
     <div class="row">
         <div class="col-lg-8 mb-4">
             <div class="bg-white rounded shadow p-4">
