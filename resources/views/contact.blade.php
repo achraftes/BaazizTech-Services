@@ -21,7 +21,7 @@
                             <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" value="{{ old('name') }}" required>
                             @error('name')
                                 <div class="invalid-feedback">{{ $message }}</div>
-                            @enderror
+                            @enderro
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="email" class="form-label">Adresse email <span class="text-danger">*</span></label>
