@@ -78,7 +78,7 @@
                     </li>
                     <li class="mb-3 d-flex align-items-start">
                         <i class="fas fa-phone-alt text-primary me-3 fs-5"></i>
-                        <a href="tel:+212628231901" class="text-decoration-none">+212 62 82 319 1</a>
+                        <a href="tel:+212628231901" class="text-decoration-none">+212 62 82 319 17</a>
                     </li>
                 </ul>
             </div>
