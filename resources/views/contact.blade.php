@@ -70,7 +70,7 @@
                 <ul class="list-unstyled">
                     <li class="mb-3 d-flex align-items-start">
                         <i class="fas fa-map-marker-alt text-primary me-3 fs-5"></i>
-                        <span>Lot Foutouh, Imm 178, App 3<br>Av De Caire, Temara</span>
+                        <span>Lot Foutouh, Imm 177, App 3<br>Av De Caire, Temara</span>
                     </li>
                     <li class="mb-3 d-flex align-items-start">
                         <i class="fas fa-envelope text-primary me-3 fs-5"></i>
