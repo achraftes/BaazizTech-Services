@@ -5,6 +5,7 @@
         <div class="col-lg-8 mb-4">
             <div class="bg-white rounded shadow p-4">
                 <h1 class="text-center text-primary border-bottom pb-3 mb-4">Formulaire de contact</h1>
+                <h1 class="text-center text-primary border-bottom pb-3 mb-4">Formulaire de contact</h1>
 
                 @if(session('success'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
