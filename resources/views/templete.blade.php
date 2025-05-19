@@ -261,7 +261,7 @@
         color: white;
         border-radius: 50%;
         font-size: 14px;
-        font-size: 14px;
+        
     }
     
     .contact-info p {
