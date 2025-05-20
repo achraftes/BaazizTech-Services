@@ -253,9 +253,9 @@
     
     .contact-icon {
         width: 35px;
-        height: 36px;
+        height: 35px;
         display: flex;
-        align-items: center;
+        align-items: cente;
         justify-content: center;
         background: DodgerBlue;
         color: white;
