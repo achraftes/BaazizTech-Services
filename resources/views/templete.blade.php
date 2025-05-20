@@ -252,7 +252,7 @@
     }
     
     .contact-icon {
-        width: 35px;
+        width: 36px;
         height: 35px;
         display: flex;
         align-items: center;
