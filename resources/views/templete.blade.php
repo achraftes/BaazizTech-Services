@@ -252,8 +252,8 @@
     }
     
     .contact-icon {
-        width: 36px;
-        height: 35px;
+        width: 35px;
+        height: 36px;
         display: flex;
         align-items: center;
         justify-content: center;
