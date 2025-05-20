@@ -255,12 +255,12 @@
         width: 35px;
         height: 35px;
         display: flex;
-        align-items: cente;
+        align-items: center;
         justify-content: center;
         background: DodgerBlue;
         color: white;
         border-radius: 50%;
-        font-size: 14px;
+        font-size: 15px;
         
     }
     
