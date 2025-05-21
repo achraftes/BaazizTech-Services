@@ -99,7 +99,7 @@
     /* Ajout d'un effet de highlight pour la page active */
     .navbar-nav .nav-item.active .nav-link {
         color: DodgerBlue !important;
-        font-weight: 500;
+        font-weight: 600;
     }
     
     .navbar-nav .nav-item.active .nav-link::after {
