@@ -49,7 +49,7 @@
         content: '';
         position: absolute;
         width: 0;
-        height: 3px;
+        height: 2px;
         bottom: 0;
         left: 0;
         background-color: DodgerBlue;
