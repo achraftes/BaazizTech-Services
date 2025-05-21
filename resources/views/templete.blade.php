@@ -181,7 +181,7 @@
     .footer-heading {
         position: relative;
         color: white;
-        font-weight: 600;
+        font-weight: 500;
         margin-bottom: 25px;
         font-size: 1.25rem;
         text-transform: uppercase;
