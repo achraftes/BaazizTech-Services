@@ -68,7 +68,7 @@
     .btn-primary {
         background-color: DodgerBlue;
         border-color: DodgerBlue;
-        border-radius: 33px;
+        border-radius: 30px;
         padding: 8px 20px;
         font-weight: 500;
         transition: all 0.3s ease;
