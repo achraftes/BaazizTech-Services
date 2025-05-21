@@ -111,7 +111,7 @@
         padding: 30px 0;
         background-color: #f8f9fa;
         border-radius: 10px;
-        margin: 40px 0;
+        margin: 30px 0;
     }
     
     .pagination .page-item .page-link {
