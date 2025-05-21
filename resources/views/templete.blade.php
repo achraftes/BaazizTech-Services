@@ -260,7 +260,7 @@
         background: DodgerBlue;
         color: white;
         border-radius: 50%;
-        font-size: 15px;
+        font-size: 14px;
         
     }
     
