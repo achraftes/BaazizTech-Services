@@ -40,7 +40,7 @@
         
         /* Carousel Styles */
         .c-item {
-            height: 75vh;
+            height: 85vh;
             position: relative;
         }
 
