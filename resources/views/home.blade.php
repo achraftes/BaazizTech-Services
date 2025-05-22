@@ -74,7 +74,7 @@
             font-weight: 900;
             letter-spacing: -1px;
             margin-bottom: 1.5rem;
-            text-shadow: 2px 6px 8px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 9px rgba(0,0,0,0.3);
         }
         
         .carousel-tagline {
