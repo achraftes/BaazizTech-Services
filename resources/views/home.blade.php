@@ -31,7 +31,7 @@
             font-family: 'Poppins', sans-serif;
             background-color: #f9fafc;
             color: #333;
-            padding-top: 56px;
+            padding-top: 55px;
         }
         
         h1, h2, h3, h4, h5, h6 {
