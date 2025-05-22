@@ -105,7 +105,7 @@
         
         .welcome-image {
             position: relative;
-            border-radius: 40px;
+            border-radius: 20px;
             overflow: hidden;
             box-shadow: 0 15px 35px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
