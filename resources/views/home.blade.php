@@ -194,7 +194,7 @@
             background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
             color: white;
             cursor: pointer;
-            padding: 15px;
+            padding: 16px;
             border-radius: 50%;
             box-shadow: 0 4px 15px rgba(0,86,179,0.3);
             display: none; /* Hidden initially */
