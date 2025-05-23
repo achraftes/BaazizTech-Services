@@ -186,7 +186,7 @@
         /* Scroll to top button style */
         #scrollBtn {
             position: fixed;
-            bottom: 30px;
+            bottom: 36px;
             right: 30px;
             z-index: 99;
             border: none;
