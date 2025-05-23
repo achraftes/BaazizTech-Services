@@ -212,7 +212,7 @@
         }
         
         /* Responsive Adjustments */
-        @media (max-width: 991px) {
+        @media (max-width: 992px) {
             .c-item {
                 height: 70vh;
             }
