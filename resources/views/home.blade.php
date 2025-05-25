@@ -229,7 +229,7 @@
             }
             
             .display-1 {
-                font-size: 2.4rem;
+                font-size: 2.5rem;
             }
         }
     </style>
