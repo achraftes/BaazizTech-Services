@@ -270,7 +270,7 @@
             <div class="carousel-overlay"></div>
             <img src="images/sup.jpg" class="d-block w-100 c-img" alt="Slide 3">
             <div class="carousel-caption">
-                <h3 class="fs-3 text-uppercase mb-3" style="color: var(--accent-color);">SUPPOR</h3>
+                <h3 class="fs-3 text-uppercase mb-3" style="color: var(--accent-color);">SUPPORT</h3>
                 <h1 class="display-1 text-white mb-4">SERVICE CLIENT DÉDIÉ</h1>
                 <p class="carousel-tagline">Assistance technique professionnelle et réactive pour toutes vos problématiques</p>
                 <a href="{{ url('about') }}" class="btn btn-custom">À propos de nous</a>
