@@ -219,7 +219,7 @@
             
             .welcome-text {
                 padding-right: 0;
-                margin-bottom: 3rem;
+                margin-bottom: 4rem;
             }
         }
         
