@@ -250,7 +250,7 @@
             <div class="carousel-overlay"></div>
             <img src="images/0_05.webp" class="d-block w-100 c-img" alt="Slide 1">
             <div class="carousel-caption">
-                <h3 class="fs-3 text-uppercase mb-3" style="color: var(--accent-color);">BIENVENUE À</h3>
+                <h3 class="fs-3 text-uppercase mb-3" style="color: var(--accent-color);">BIENVENUE </h3>
                 <h1 class="display-1 text-white mb-4">BAAZIZ TECHNOLOGIES</h1>
                 <p class="carousel-tagline">Solutions innovantes en réseaux et télécommunications pour entreprises</p>
                 <a href="#services" class="btn btn-custom">Découvrir nos services</a>
