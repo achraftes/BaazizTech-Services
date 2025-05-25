@@ -223,7 +223,7 @@
             }
         }
         
-        @media (max-width: 769px) {
+        @media (max-width: 768px) {
             .c-item {
                 height: 60vh;
             }
