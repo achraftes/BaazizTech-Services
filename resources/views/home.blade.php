@@ -321,7 +321,7 @@
                     <div class="service-icon">
                         <i class="fas fa-network-wired"></i>
                     </div>
-                    <!-- <h4>Réseaux informatiques</h4> -->
+                    <h4>Réseaux informatiques</h4>
                     <p>Installation et maintenance de réseaux informatiques performants adaptés à vos besoins professionnels.</p>
                 </div>
             </div>
