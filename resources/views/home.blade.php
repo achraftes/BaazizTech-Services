@@ -342,7 +342,7 @@
                         <i class="fas fa-headset"></i> 
                     </div>
                     <h4>Support technique</h4>
-                    <p> client dédié avec une assistance réactive pour résoudre tous vos problèmes techniques.</p>
+                    <p>Service client dédié avec une assistance réactive pour résoudre tous vos problèmes techniques.</p>
                 </div>
             </div>
         </div>
@@ -351,7 +351,7 @@
 
 <!-- Bouton Scroll to Top -->
 <button onclick="scrollToTop()" id="scrollBtn" title="Remonter" class="btn">
-    <i class="fas fa-arrow-up"></i>
+    
 </button>
 
 <script>
