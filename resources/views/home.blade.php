@@ -301,8 +301,8 @@
             <div class="welcome-image">
                 <img src="images/sp.jpg" alt="Baaziz Technologies" class="img-fluid">
             </div>
-        </div>
-    </div>
+        <!-- </div>
+    </div> -->
 </div>
 
 <!-- Services Section -->
@@ -351,7 +351,7 @@
 
 <!-- Bouton Scroll to Top -->
 <button onclick="scrollToTop()" id="scrollBtn" title="Remonter" class="btn">
-    
+    <i class="fas fa-arrow-up"></i>
 </button>
 
 <script>
