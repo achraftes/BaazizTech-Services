@@ -339,7 +339,7 @@
             <div class="col-md-4 mb-4">
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-headset"></i> happy birthday
+                        <i class="fas fa-headset"></i> 
                     </div>
                     <h4>Support technique</h4>
                     <p>Service client dédié avec une assistance réactive pour résoudre tous vos problèmes techniques.</p>
