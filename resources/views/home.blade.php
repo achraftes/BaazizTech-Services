@@ -301,8 +301,8 @@
             <div class="welcome-image">
                 <img src="images/sp.jpg" alt="Baaziz Technologies" class="img-fluid">
             </div>
-        <!-- </div>
-    </div> -->
+        </div>
+    </div>
 </div>
 
 <!-- Services Section -->
