@@ -268,7 +268,7 @@
         </div>
         <div class="carousel-item c-item">
             <div class="carousel-overlay"></div>
-            <img src="images/sup.jpg" class="d-block w-100 c-img" alt="Slide 3">
+            <img src="images/" class="d-block w-100 c-img" alt="Slide 3">
             <div class="carousel-caption">
                 <h3 class="fs-3 text-uppercase mb-3" style="color: var(--accent-color);">SUPPORT</h3>
                 <h1 class="display-1 text-white mb-4">SERVICE CLIENT DÉDIÉ</h1>
