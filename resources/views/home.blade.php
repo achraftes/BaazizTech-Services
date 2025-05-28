@@ -343,7 +343,7 @@
                     </div>
                     <h4>Support technique</h4>
                     <p>Service client dédié avec une assistance réactive pour résoudre tous vos problèmes techniques.</p>
-                <!-- </div> -->
+                </div>
             </div>
         </div>
     </div>

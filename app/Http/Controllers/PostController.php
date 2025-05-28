@@ -30,7 +30,7 @@ class PostController extends Controller
     public function store(Request $request)
     {
          $request->validate([
-             'title' => 'bail|required|string|max:25',
+             'title' => 'bail|required|string|max:30',
              'description' => 'bail|required|nullable|string|max:1000',
              'image' => 'bail|required|string|max:255', 
              'detail' => 'bail|required|nullable|string|max:1000',
