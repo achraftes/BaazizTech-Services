@@ -331,7 +331,7 @@
                     <div class="service-icon">
                         <i class="fas fa-project-diagram"></i>
                     </div>
-                    <!-- <h4>Fibre optique</h4> -->
+                    <h4>Fibre optique</h4>
                     <p>Expertise complète en solutions de connectivité fibre optique pour une transmission de données optimale.</p>
                 </div>
             </div>
