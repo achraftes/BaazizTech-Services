@@ -77,11 +77,11 @@ class PostController extends Controller
    
 
 
-    // public function destroy(Post $Post)
-    // {
-    //     $post->delete();
-    //     return redirect('posts.index');
-    // }
+    public function destroy(Post $Post)
+    {
+        $post->delete();
+        return redirect('posts.index');
+    }
 
     
 }
