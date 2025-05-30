@@ -64,7 +64,7 @@ class PostController extends Controller
             'title' => 'bail|required|string|max:25',
             'description' => 'bail|required|nullable|string|max:1000',
             'image' => 'bail|required|string|max:255', 
-            // 'detail' => 'bail|required|nullable|string|max:1000',
+            'detail' => 'bail|required|nullable|string|max:1000',
           
            ]);
            
