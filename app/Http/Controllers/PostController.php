@@ -71,7 +71,7 @@ class PostController extends Controller
             $input =$request->all();
             Post::create($input);
             $request->session()->flash('success', 'Formulaire validé avec succès !');
-            return redirect('posts.index');
+            // return redirect('posts.index');
     }
 
    
