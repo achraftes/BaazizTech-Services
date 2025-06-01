@@ -22,7 +22,7 @@
                         <img src="{{ asset('images/apple.jpg') }}" alt="Register Image" class="img-fluid h-100" style="object-fit: cover; object-position: center;">
                     </div>
                     
-                    <!-- Right Form Column -->
+                    Right Form Column
                     <div class="col-md-6 p-0">
                         <!-- Registration Form Container -->
                         <div class="p-4 p-md-5">
