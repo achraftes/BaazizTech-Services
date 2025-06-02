@@ -52,7 +52,7 @@
                                 
                                 <!-- Email Field -->
                                 <div class="mb-3">
-                                    <label for="email" class="form-label fw-bold">
+                                    <label for="emaill" class="form-label fw-bold">
                                         <i class="fas fa-envelope me-2 text-success"></i>Adresse email
                                     </label>
                                     <input type="email" name="email" class="form-control form-control-lg rounded-3" id="email" placeholder="name@example.com" required>
