@@ -41,7 +41,7 @@
                             
                             <!-- Registration Form -->
                             <form action="{{ route('register') }}" method="POST">
-                                @csrf
+                                <!-- @csrf -->
                                 <!-- Name Field -->
                                 <div class="mb-3">
                                     <label for="name" class="form-label fw-bold">
