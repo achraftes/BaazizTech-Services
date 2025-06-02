@@ -26,7 +26,7 @@
                     <div class="col-md-6 p-0">
                         <!-- Registration Form Container -->
                         <div class="p-4 p-md-5">
-                            <!-- Header with Logo -->
+                            Header with Logo
                             <div class="text-center mb-4">
                                 <h3 class="fw-bold text-success mb-4">S'inscrire</h3>
                             </div>
