@@ -63,7 +63,7 @@
                                     <label for="password" class="form-label fw-bold">
                                         <i class="fas fa-lock me-2 text-success"></i>Mot de passe
                                     </label>
-                                    Password Field
+                                    <!-- Password Field -->
                                     <div class="input-group">
                                         <input type="password" name="password" class="form-control form-control-lg rounded-start-3" id="password" required>
                                         <span class="input-group-text bg-transparent rounded-end-3" id="togglePassword">
