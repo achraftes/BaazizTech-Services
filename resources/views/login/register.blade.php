@@ -112,11 +112,6 @@
                 password.setAttribute('type', type);
                 this.querySelector('i').className = type === 'password' ? 'fas fa-eye' : 'fas fa-eye-slash';
             });
-             togglePassword.addEventListener('click', function() {
-                const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-                password.setAttribute('type', type);
-                this.querySelector('i').className = type === 'password' ? 'fas fa-eye' : 'fas fa-eye-slash';
-            });
         });
     </script>
 </body>
