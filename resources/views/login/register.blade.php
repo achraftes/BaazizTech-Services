@@ -79,7 +79,7 @@
                                 <div class="mb-3 form-check">
                                     <input type="checkbox" class="form-check-input" id="agreeTerms" required>
                                     <label class="form-check-label" for="agreeTerms">
-                                        J'accepte les <a href="#" class="text-decoration-none">termes et conditions</a>
+                                        J'accepte   <a href="#" class="text-decoration-none">termes et conditions</a>
                                     </label>
                                 </div>
                                 
