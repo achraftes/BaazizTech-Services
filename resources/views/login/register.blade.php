@@ -88,9 +88,6 @@
                                     <button type="submit" class="btn btn-success btn-lg fw-bold">
                                         <i class="fas fa-user-plus me-2"></i>Créer mon compte
                                     </button>
-                                     <button type="submit" class="btn btn-success btn-lg fw-bold">
-                                        <i class="fas fa-user-plus me-2"></i>Créer mon compte
-                                    </button>
                                     
                                     <a href="{{ route('login') }}" class="btn btn-primary btn-lg fw-bold">
                                         <i class="fas fa-sign-in-alt me-2"></i>Se connecter
