@@ -100,9 +100,7 @@
             </div>
         </div>
     </div>
- <button type="submit" class="btn btn-success btn-lg fw-bold">
-                                        <i class="fas fa-user-plus me-2"></i>Créer mon compte
-                                    </button>
+
     <script>
         // Toggle password visibility
         document.addEventListener('DOMContentLoaded', function() {
