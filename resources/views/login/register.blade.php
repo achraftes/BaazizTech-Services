@@ -114,8 +114,6 @@
             });
         });
     </script>
-    Add line break (<br>) in the donation section for better formatting
-
 </body>
 </html>
 @endSection()
