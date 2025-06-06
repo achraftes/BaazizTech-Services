@@ -28,7 +28,7 @@
                         <div class="p-4 p-md-5">
                             <!-- Header with Logo -->
                             <div class="text-center mb-4">
-                                <h3 class="fw-bold text-success mb-4">S'</h3>
+                                <h3 class="fw-bold text-success mb-4">S'inscrire</h3>
                             </div>
                             
                             <!-- Success Alert -->
