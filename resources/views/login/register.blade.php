@@ -47,6 +47,11 @@
                                     <label for="name" class="form-label fw-bold">
                                         <i class="fas fa-user me-2 text-success"></i>Nom complet
                                     </label>
+
+
+                                        <label for="name" class="form-label fw-bold">
+                                        <i class="fas fa-user me-2 text-success"></i>Nom complet
+                                    </label>
                                     <input type="text" name="name" class="form-control form-control-lg rounded-3" id="name" placeholder="John Doe" required>
                                 </div>
                                 
