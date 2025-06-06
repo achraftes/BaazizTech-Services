@@ -47,18 +47,13 @@
                                     <label for="name" class="form-label fw-bold">
                                         <i class="fas fa-user me-2 text-success"></i>Nom complet
                                     </label>
-
-
-                                        <label for="name" class="form-label fw-bold">
-                                        <i class="fas fa-user me-2 text-success"></i>Nom complet
-                                    </label>
                                     <input type="text" name="name" class="form-control form-control-lg rounded-3" id="name" placeholder="John Doe" required>
                                 </div>
                                 
                                 <!-- Email Field -->
                                 <div class="mb-3">
                                     <label for="email" class="form-label fw-bold">
-                                        <i class="fas fa-envelope me-2 text-success"></i>Adresse email
+                                        <i class="fas fa-envelope me-2 text-success"></i>Adresse 
                                     </label>
                                     <input type="email" name="email" class="form-control form-control-lg rounded-3" id="email" placeholder="name@example.com" required>
                                 </div>
