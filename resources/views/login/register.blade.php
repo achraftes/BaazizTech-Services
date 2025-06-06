@@ -66,13 +66,13 @@
                                     <!-- Password Field -->
                                     <div class="input-group">
                                         <input type="password" name="password" class="form-control form-control-lg rounded-start-3" id="password" required>
-                                        <!-- <span class="input-group-text bg-transparent rounded-end-3" id="togglePassword">
+                                        <span class="input-group-text bg-transparent rounded-end-3" id="togglePassword">
                                             <i class="fas fa-eye"></i>
-                                        </span> -->
+                                        </span>
                                     </div>
-                                    <div class="form-text">
+                                    <!-- <div class="form-text">
                                         <i class="fas fa-info-circle me-1"></i>Le mot de passe doit contenir au moins 8 caractères
-                                    </div>
+                                    </div> -->
                                 </div>
                                 
                                 <!-- Terms & Conditions -->
