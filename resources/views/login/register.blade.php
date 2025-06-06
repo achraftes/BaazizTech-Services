@@ -70,9 +70,9 @@
                                             <i class="fas fa-eye"></i>
                                         </span>
                                     </div>
-                                    <!-- <div class="form-text">
+                                    <div class="form-text">
                                         <i class="fas fa-info-circle me-1"></i>Le mot de passe doit contenir au moins 8 caractères
-                                    </div> -->
+                                    </div>
                                 </div>
                                 
                                 <!-- Terms & Conditions -->
