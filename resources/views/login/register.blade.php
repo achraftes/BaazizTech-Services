@@ -114,6 +114,6 @@
         });
     </script>
                                 <!-- Terms & Conditions -->
-<!-- </body>
-</html> -->
+</body>
+</html>
 @endSection()
