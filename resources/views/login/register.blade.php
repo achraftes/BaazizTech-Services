@@ -75,7 +75,6 @@
                                     </div>
                                 </div>
                                 
-                                <!-- Terms & Conditions -->
                                
                                     <input type="checkbox" class="form-check-input" id="agreeTerms" required>
                                     <label class="form-check-label" for="agreeTerms">
@@ -114,6 +113,7 @@
             });
         });
     </script>
-</body>
-</html>
+                                <!-- Terms & Conditions -->
+<!-- </body>
+</html> -->
 @endSection()
