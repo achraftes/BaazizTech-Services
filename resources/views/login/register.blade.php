@@ -72,11 +72,11 @@
                                     </div>
                                     <div class="form-text">
                                         <i class="fas fa-info-circle me-1"></i>Le mot de passe doit contenir au moins 8 caractères
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
                                 
                                 <!-- Terms & Conditions -->
-                                <div class="mb-3 form-check">
+                               
                                     <input type="checkbox" class="form-check-input" id="agreeTerms" required>
                                     <label class="form-check-label" for="agreeTerms">
                                         J'accepte les <a href="#" class="text-decoration-none">termes et conditions</a>
@@ -87,7 +87,7 @@
                                 <div class="d-grid gap-3">
                                     <button type="submit" class="btn btn-success btn-lg fw-bold">
                                         <i class="fas fa-user-plus me-2"></i>Créer mon compte
-                                    </button>
+                                    </button> <div class="mb-3 form-check">
                                     
                                     <a href="{{ route('login') }}" class="btn btn-primary btn-lg fw-bold">
                                         <i class="fas fa-sign-in-alt me-2"></i>Se connecter
