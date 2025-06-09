@@ -12,10 +12,10 @@
 </head>
 <body class="bg-light">
     <!-- Main Content -->
-    <div class="container py-5"> <br> <br> <br> <br> <br><br>
+    <div class="container py-5"> <br> <br> <br> <br> <br> <br>
         <div class="row justify-content-center">
             <!-- Main Card with Image and Form -->
-            <div class="col-md-10">
+            <!-- <div class="col-md-10"> -->
                 <div class="row bg-white rounded-3 shadow-lg overflow-hidden">
                     <!-- Left Image Column -->
                     <div class="col-md-6 p-0">
