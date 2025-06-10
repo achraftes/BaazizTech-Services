@@ -19,7 +19,7 @@
                 <div class="row bg-white rounded-3 shadow-lg overflow-hidden">
                     <!-- Left Image Column -->
                     <div class="col-md-6 p-0">
-                        <img src="{{ asset('images/apple.jpg') }}" alt="Login Image" class="img-fluid h-100" style="object-fit: cover; object-position: center;">
+                        <img src="{{ asset('images/apple.') }}" alt="Login Image" class="img-fluid h-100" style="object-fit: cover; object-position: center;">
                     </div>
                     
                     <!-- Right Form Column -->
