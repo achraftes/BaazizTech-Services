@@ -28,8 +28,8 @@
                         <div class="p-4 p-md-5">
                             <!-- Header with Logo -->
                             <div class="text-center mb-4">
-<!--                                 
-                                <h3 class="fw-bold text-primary mb-4">Connexion</h3> -->
+                                
+                                <h3 class="fw-bold text-primary mb-4">Connexion</h3>
                             </div>
                             
                             <!-- Error Alert -->
