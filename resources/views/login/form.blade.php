@@ -77,9 +77,9 @@
                                         <i class="fas fa-sign-in-alt me-2"></i>Se connecter
                                     </button>
                                     
-                                    <a href="{{ route('register') }}" class="btn btn-success btn-lg fw-bold">
+                                    <!-- <a href="{{ route('register') }}" class="btn btn-success btn-lg fw-bold">
                                         <i class="fas fa-user-plus me-2"></i>Créer un compte
-                                    </a>
+                                    </a> -->
                                 </div>
                                 
                                 <!-- Footer Info -->
