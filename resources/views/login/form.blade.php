@@ -42,7 +42,7 @@
                             
                             <!-- Login Form -->
                             <form action="{{ route('login') }}" method="POST">
-                                @csrf
+                                <!-- @csrf -->
                                 <!-- Email Field -->
                                 <div class="mb-4">
                                     <label for="email" class="form-label fw-bold">
