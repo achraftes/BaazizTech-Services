@@ -33,7 +33,7 @@
                             </div>
                             
                             <!-- Error Alert -->
-                            @if(Session::has('error'))
+                            <!-- @if(Session::has('error')) -->
                                 <div class="alert alert-danger d-flex align-items-center" role="alert">
                                     <i class="fas fa-exclamation-triangle me-2"></i>
                                     <div>{{ Session::get('error') }}</div>
