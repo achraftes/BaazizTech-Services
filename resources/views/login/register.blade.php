@@ -12,7 +12,7 @@
 </head>
 <body class="bg-light">
     <!-- Main Content -->
-    <div class="container py-5"> <br> <br> <br> <br> <br> 
+    <div class="container py-5"> <br> <br> <br> <br> <br> <br> 
         <div class="row justify-content-center">
             <!-- Main Card with Image and Form -->
             <div class="col-md-10">
