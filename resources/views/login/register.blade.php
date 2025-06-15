@@ -23,7 +23,7 @@
                     </div>
                     
                     <!-- Right Form Column -->
-                    <div class="col-md-6 p-0">
+                    <!-- <div class="col-md-6 p-0"> -->
                         <!-- Registration Form Container -->
                         <div class="p-4 p-md-5">
                             <!-- Header with Logo -->
