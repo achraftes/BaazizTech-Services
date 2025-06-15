@@ -32,7 +32,7 @@
                             </div>
                             
                             <!-- Success Alert -->
-                            @if(Session::has('success'))
+                            <!-- @if(Session::has('success')) -->
                                 <div class="alert alert-success d-flex align-items-center" role="alert">
                                     <i class="fas fa-check-circle me-2"></i>
                                     <div>{{ Session::get('success') }}</div>
