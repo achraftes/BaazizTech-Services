@@ -37,7 +37,7 @@
                                     <i class="fas fa-check-circle me-2"></i>
                                     <div>{{ Session::get('success') }}</div>
                                 </div>
-                            @endif
+                            <!-- @endif -->
                             
                             <!-- Registration Form -->
                             <form action="{{ route('register') }}" method="POST">
