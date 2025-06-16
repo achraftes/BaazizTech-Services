@@ -127,9 +127,7 @@
       <p style="margin-top: 5px; font-size: margin-top: 5px; 14px; color: #5f6368;">Attirez plus de clients et maximisez vos résultats.</p>
     </div>
 
-  </div>
-</div>
-
+ 
 
 
 
