@@ -119,24 +119,12 @@
 @endSection()
 
 
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
-
-    <div style="text-align: center; max-width: 250px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/197/197560.png" alt="Tour Eiffel" style="width: 40px; height: 40px; margin-bottom: 10px;" />
-      <p style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;"><span style="font-size: 11px; letter-spacing: 1px;">FR</span> Qualité 100% française</p>
-      <p style="margin-top: 5px; font-size: 14px; color: #5f6368;">Sites pro, fiables et impactants.</p>
-    </div>
-
-    <div style="text-align: center; max-width: 250px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Badge" style="width: 40px; height: 40px; margin-bottom: 10px;" />
-      <p style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;">Performance & visibilité</p>
-      <p style="margin-top: 5px; font-size: 14px; color: #5f6368;">UX fluide, SEO puissant, et mobile-friendly.</p>
-    </div>
+ 
 
     <div style="text-align: center; max-width: 250px;">
       <img src="https://cdn-icons-png.flaticon.com/512/1041/1041870.png" alt="Graphique rentabilité" style="width: 40px; height: 40px; margin-bottom: 10px;" />
       <p style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;">Un investissement rentable</p>
-      <p style="margin-top: 5px; font-size: 14px; color: #5f6368;">Attirez plus de clients et maximisez vos résultats.</p>
+      <p style="margin-top: 5px; font-size: margin-top: 5px; 14px; color: #5f6368;">Attirez plus de clients et maximisez vos résultats.</p>
     </div>
 
   </div>
