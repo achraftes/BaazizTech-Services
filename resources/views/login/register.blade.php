@@ -122,33 +122,33 @@
 <div style="max-width: 600px; margin: 20px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px; text-align: left;">
 <div style="display: flex; align-items: center; margin-bottom: 15px; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
 <div style="width: 18px; height: 18px; background-color: #28a745; border-radius: 2px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
-<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Site WordPress pro (5 pages)</p>
+<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Tout ce qui est inclus dans Clients en Automatique</p>
 
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 15px; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
 <div style="width: 18px; height: 18px; background-color: #28a745; border-radius: 2px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
-<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Design moderne & mobile-friendly</p>
+<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Publicités Google Ads optimisées</p>
 
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 15px; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
 <div style="width: 18px; height: 18px; background-color: #28a745; border-radius: 2px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
-<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Hébergement, maintenance & mises à jour inclus</p>
+<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Tracking des conversions et reporting mensuel</p>
 
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 15px; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
 <div style="width: 18px; height: 18px; background-color: #28a745; border-radius: 2px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
-<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Assistance technique</p>
+<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Tunnel de vente avec pages d’atterrissage performantes</p>
 
 </div>
 <div style="display: flex; align-items: center; margin-bottom: 15px; padding: 12px 0; border-bottom: none;">
 <div style="width: 18px; height: 18px; background-color: #28a745; border-radius: 2px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
-<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">SEO local de base</p>
-
-</div>
-<div style="display: flex; align-items: center; margin-bottom: 15px; padding: 12px 0; border-bottom: none;">
-<div style="width: 18px; height: 18px; background-color: #28a745; border-radius: 2px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
-<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Fiche Google Business bien configurée</p>
+<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Accompagnement business</p>
 
 </div>
 <div style="background-color: #fff3cd; border: 1px solid #ffeaa7; border-radius: 6px; padding: 12px; margin-top: 15px; display: flex; align-items: flex-start;">
 
+<span style="color: #e17055; font-size: 14px; margin-right: 10px; margin-top: 2px;">📌</span>
+<p style="color: #856404; font-size: 14px; line-height: 1.4; margin: 0;">Objectif : Un flux constant de clients prêts à acheter vos services.</p>
+
+</div>
+</div>
