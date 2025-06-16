@@ -152,8 +152,3 @@
 </div>
 <div style="background-color: #fff3cd; border: 1px solid #ffeaa7; border-radius: 6px; padding: 12px; margin-top: 15px; display: flex; align-items: flex-start;">
 
-<span style="color: #e17055; font-size: 14px; margin-right: 10px; margin-top: 2px;">📌</span>
-<p style="color: #856404; font-size: 14px; line-height: 1.4; margin: 0;">Idéal pour ceux qui veulent un site qui commence à être visible localement.</p>
-
-</div>
-</div>
