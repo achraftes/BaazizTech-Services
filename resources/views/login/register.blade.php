@@ -117,10 +117,7 @@
 </body>
 </html>
 @endSection()
-<div style="text-align: center; margin: 60px 20px;">
-  <h2 style="color: #202124; font-family: Poppins, Helvetica, Arial, Lucida, sans-serif; font-size: 47px; font-weight: 500; letter-spacing: -2px; margin-bottom: 50px;">
-    Obtenez le meilleur du web grâce à notre agence
-  </h2>
+
 
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
 
