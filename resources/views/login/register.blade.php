@@ -148,13 +148,14 @@
 
 
 
-
-
-Solution complète pour les entreprises en croissance recherchant une stratégie digitale avancée et un accompagnement personnalisé.
+Idéal pour les petites entreprises qui débutent leur présence digitale avec les services essentiels de référencement et d'analyse.
 <ul>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#ffffff" data-hover-color="inherit" style="font-size: 14px; color: #ffffff;" rel="noopener"><i class="fa fa-check"> </i></a> Tout ce qui est inclus dans Clients en Automatique</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#ffffff" data-hover-color="inherit" style="font-size: 14px; color: #ffffff;" rel="noopener"><i class="fa fa-check"> </i></a>  Publicités Google Ads optimisées</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#ffffff" data-hover-color="inherit" style="font-size: 14px; color: #ffffff;" rel="noopener"><i class="fa fa-check"> </i></a> Tracking des conversions et reporting mensuel</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#ffffff" data-hover-color="inherit" style="font-size: 14px; color: #ffffff;" rel="noopener"><i class="fa fa-check"> </i></a> Tunnel de vente avec pages d'atterrissage performantes</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#ffffff" data-hover-color="inherit" style="font-size: 14px; color: #ffffff;" rel="noopener"><i class="fa fa-check"> </i></a>  Accompagnement business</li>
+ 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a>  Site WordPress pro (5 pages)</li>
+ 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a> Design moderne &amp; mobile-friendly</li>
+ 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a> Hébergement, maintenance</li>
+ 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a> Assistance technique</li>
+    <li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a> SEO local de base</li>
+    <li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a>  Fiche Google Business</li>
 </ul>
+
+
