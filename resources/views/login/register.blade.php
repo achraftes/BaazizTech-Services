@@ -148,14 +148,11 @@
 
 
 
-Idéal pour les petites entreprises qui débutent leur présence digitale avec les services essentiels de référencement et d'analyse.
+Parfait équilibre entre fonctionnalités avancées et budget maîtrisé pour développer efficacement votre activité en ligne.
 <ul>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a>  Site WordPress pro (5 pages)</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a> Design moderne &amp; mobile-friendly</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a> Hébergement, maintenance</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a> Assistance technique</li>
-    <li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a> SEO local de base</li>
-    <li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#34c478" data-hover-color="inherit" style="font-size: 14px; color: #34c478;" rel="noopener"><i class="fa fa-check"> </i></a>  Fiche Google Business</li>
+ 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#5747e4" data-hover-color="inherit" style="font-size: 14px; color: #5747e4;" rel="noopener"><i class="fa fa-check"> </i></a> Strategy &amp; Research</li>
+ 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#5747e4" data-hover-color="inherit" style="font-size: 14px; color: #5747e4;" rel="noopener"><i class="fa fa-check"> </i></a> Business &amp; Finance Analysing</li>
+ 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#5747e4" data-hover-color="inherit" style="font-size: 14px; color: #5747e4;" rel="noopener"><i class="fa fa-check"> </i></a> SEO Optimization</li>
+ 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#5747e4" data-hover-color="inherit" style="font-size: 14px; color: #5747e4;" rel="noopener"><i class="fa fa-check"> </i></a> Tritani periculis vix</li>
 </ul>
-
 
