@@ -148,11 +148,4 @@
 
 
 
-Parfait équilibre entre fonctionnalités avancées et budget maîtrisé pour développer efficacement votre activité en ligne.
-<ul>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#5747e4" data-hover-color="inherit" style="font-size: 14px; color: #5747e4;" rel="noopener"><i class="fa fa-check"> </i></a> Tout ce qui est inclus dans « Présence Optimisée »</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#5747e4" data-hover-color="inherit" style="font-size: 14px; color: #5747e4;" rel="noopener"><i class="fa fa-check"> </i></a>  SEO avancé pour remonter en première page de Google</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#5747e4" data-hover-color="inherit" style="font-size: 14px; color: #5747e4;" rel="noopener"><i class="fa fa-check"> </i></a> Stratégie de contenu et backlinks</li>
- 	<li><a class="gt3_icon_link gt3_custom_color" href="#" target="_blank" data-color="#5747e4" data-hover-color="inherit" style="font-size: 14px; color: #5747e4;" rel="noopener"><i class="fa fa-check"> </i></a>  Suivi des performances et ajustements réguliers</li>
-</ul>
 
