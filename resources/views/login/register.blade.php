@@ -170,7 +170,7 @@ Nos consultants
 </div>
 <div style="padding: 30px; border-radius: 15px; width: 100%; max-width: 350px; text-align: center;">
 <img style="width: 40px; height: 40px; margin-bottom: 10px;" src="https://cdn-icons-png.flaticon.com/512/1041/1041870.png" alt="Graphique rentabilité" />
-<p style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;">Un investissement rentable</p>
+<h3 style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;">Un investissement rentable</h3>
 <p style="margin-top: 5px; font-size: 14px; color: #5f6368;">Attirez plus de clients et maximisez vos résultats.</p>
 </div>
 </div>
