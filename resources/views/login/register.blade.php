@@ -139,7 +139,7 @@
 
 
 
-<div style="display: flex; align-items; margin-bottom: 166px; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
+<div style="display: flex; align-it; margin-bottom: 166px; padding: 12px 0; border-bottom: 1px solid #f0f0f0;">
 <div style="width: 18px; height: 18px; background-color:rgb(40, 51, 201); border-radius: 2px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
 <p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Hébergement, maintenance & mises à jour inclus</p>
 </div>
