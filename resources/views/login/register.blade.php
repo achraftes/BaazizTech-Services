@@ -141,7 +141,19 @@
 
 <div style="display: flex; align-it; margin-bottom: 166px; padding: 17px 0; border-bottom: 1px solid  #f0f0f0;">
 <div style="width: 18px; height: 18px; background-color:rgb(165, 38, 16); border-radius: 6px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
-<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Hébergement, maintenance & mises à jour inclus</p>
+<p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Hébergement, maintenance & mises à jour inclus Voici le contenu en français avec des descriptions cohérentes aux titres :
+SEO Consultancy
+Nos consultants SEO spécialisés analysent votre site web et développent une stratégie de référencement personnalisée pour améliorer votre positionnement sur Google et attirer plus de clients.
+Content Marketing
+Création et diffusion de contenu de qualité qui engage votre audience cible, renforce votre expertise et convertit vos visiteurs en clients fidèles grâce à une stratégie éditoriale adaptée.
+Key Research
+Recherche approfondie des mots-clés stratégiques de votre secteur pour optimiser votre contenu et cibler les requêtes les plus pertinentes de vos prospects potentiels.
+First Working Process
+Mise en place d'un processus de travail structuré dès le premier jour pour garantir une collaboration efficace et des résultats mesurables dans vos projets digitaux.
+Dedicated Team Member
+Attribution d'un chef de projet dédié qui devient votre interlocuteur privilégié pour coordonner toutes vos actions marketing et assurer le suivi personnalisé de vos campagnes.
+Social Media Reviews
+Gestion et optimisation de votre e-réputation sur les réseaux sociaux avec surveillance des avis clients et mise en place de stratégies pour améliorer votre image de marque</p>
 </div>
 
 
