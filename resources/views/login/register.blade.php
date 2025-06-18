@@ -152,3 +152,35 @@ Nos consultants
 
 
 
+<div style="text-align: center; margin: 60px 20px;">
+<h2 style="color: #202124; font-family: Poppins, Helvetica, Arial, Lucida, sans-serif; font-size: 47px; font-weight: bold; letter-spacing: -2px; margin-bottom: 50px;">Obtenez le meilleur du web grâce à notre agence</h2>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
+<div style="text-align: center; max-width: 250px;">
+
+<img style="width: 40px; height: 40px; margin-bottom: 10px;" src="https://cdn-icons-png.flaticon.com/512/197/197560.png" alt="Tour Eiffel" />
+<p style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;"><span style="font-size: 11px; letter-spacing: 1px;">FR</span> Qualité 100% française</p>
+<p style="margin-top: 5px; font-size: 14px; color: #5f6368;">Sites pro, fiables et impactants.</p>
+
+</div>
+<div style="text-align: center; max-width: 250px;">
+
+<img style="width: 40px; height: 40px; margin-bottom: 10px;" src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Badge" />
+<p style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;">Performance &amp; visibilité</p>
+<p style="margin-top: 5px; font-size: 14px; color: #5f6368;">UX fluide, SEO puissant, et mobile-friendly.</p>
+
+</div>
+<div style="text-align: center; max-width: 250px;">
+
+<img style="width: 40px; height: 40px; margin-bottom: 10px;" src="https://cdn-icons-png.flaticon.com/512/1041/1041870.png" alt="Graphique rentabilité" />
+<p style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;">Un investissement rentable</p>
+<p style="margin-top: 5px; font-size: 14px; color: #5f6368;">Attirez plus de clients et maximisez vos résultats.</p>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
