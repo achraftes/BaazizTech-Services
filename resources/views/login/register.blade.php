@@ -151,9 +151,7 @@ Recherche approfondie des mots-clés stratégiques de votre secteur pour optimis
 First Working Process
 Mise en place d'un processus de travail structuré dès le premier jour pour garantir une collaboration efficace et des résultats mesurables dans vos projets digitaux.
 Dedicated Team Member
-Attribution d'un chef de projet dédié qui devient votre interlocuteur privilégié pour coordonner toutes vos actions marketing et assurer le suivi personnalisé de vos campagnes.
-Social Media Reviews
-Gestion et optimisation de votre e-réputation sur les réseaux sociaux avec surveillance des avis clients et mise en place de stratégies pour améliorer votre image de marque</p>
+</p>
 </div>
 
 
