@@ -140,7 +140,7 @@
 
 
 <div style="display: flex; align-it; margin-bottom: 166px; padding: 17px 0; border-bottom: 1px solid  #f0f0f0;">
-<div style="width: 18px; height: 18px; background-color:rgb(165, 38, 16); border-radius: 6px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
+<div style="width: 18px; height: 18px; background-color:rgb(56, 27, 223); border-radius: 6px; margin-right: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><span style="color: white; font-size: 12px; font-weight: bold;">✓</span></div>
 <p style="color: #333; font-size: 14px; line-height: 1.4; margin: 0;">Hébergement, maintenance & mises à jour inclus Voici le contenu en français avec des descriptions cohérentes aux titres :
 SEO Consultancy
 Nos consultants
