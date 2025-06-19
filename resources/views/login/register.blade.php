@@ -163,7 +163,7 @@ Nos consultants
 <p style="margin: 0; font-size: 14px; font-weight: 600; color: #202124;"><span style="font-size: 11px; letter-spacing: 1px;">FR</span> Qualité 100% française</p>
 <p style="margin-top: 5px; font-size: 14px; color: #5f6368;">Sites pro, fiables et impactants.</p>
 </div>
-<div style="padding: 30px; border-radius: 15px; width: 100%; max-width: 350px; text-align: cente;">
+<div style="padding: 30px; border-radius: 15px; width: 100%; max-width: 350px; text-align: center;">
 
 
 
