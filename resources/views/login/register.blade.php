@@ -152,7 +152,7 @@ Nos consultants
 
 
 
-<div style="background: white; padding: 60px 20px; font-family: 'Poppins', sans-serif;">
+
 <div style="max-width: 1200px; margin: auto;">
 <div style="text-align: center; margin-bottom: 40px;">
 <h2 style="font-size: 38px; font-weight: bold; margin-bottom: 10px;">Obtenez le meilleur du web grâce à notre agence</h2>
