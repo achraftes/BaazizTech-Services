@@ -161,7 +161,7 @@ Nos consultants
 <div style="padding: 30px; border-radius: 15px; width: 100%; max-width: 350px; text-align: center;">
 <img style="width: 40px; height: 40px; margin-bottom: 10px;" src="https://cdn-icons-png.flaticon.com/512/197/197560.png" alt="Tour Eiffel" />
 <p style="margin: 0; font-size: 14px; font-weight: 600; color:rgb(38, 72, 173);"><span style="font-size: 11px; letter-spacing: 1px;">FR</span> Qualité 100% française</p>
-<p style="margin-top: 5px; font-size: 14px; color:rgb(125, 156, 194);">Sites pro, fiables et impactants.</p>
+<p style="margin-top: 5px; font-size: 14px; color:rgb(125, 156, 194);">Sites pro, fiables et impactants guide débutant site.</p>
 </div>
 <div style="padding: 30px; border-radius: 15px; width: 100%; max-width: 350px; text-align: center;">
 
