@@ -155,7 +155,7 @@ Nos consultants
 
 <div style="max-width: 1200px; margin: auto;">
 <div style="text-align: center; margin-bottom: 40px;">
-<h2 style="font-size: 38px; font-weight: bold; margin-bottom: 12px;">Obtenez le meilleur du web grâce à notre agenc margin-bottom margin-bottome</h2>
+<h2 style="font-size: 38px; font-weight: bold; margin-bottom: 12px;">Obtenez le meilleur du web grâce à notre agence</h2>
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; justify-items: center;">
 <div style="padding: 30px; border-radius: 15px; width: 100%; max-width: 350px; text-align: center;">
